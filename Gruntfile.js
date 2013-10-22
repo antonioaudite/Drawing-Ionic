@@ -12,7 +12,8 @@ module.exports = function(grunt) {
             },
             all: [
                 'Gruntfile.js',
-                'signature_pad.js'
+                'signature_pad.js',
+                'signature_pad.jquery.js'
             ]
         },
 
@@ -27,6 +28,9 @@ module.exports = function(grunt) {
                 files: {
                     'signature_pad.min.js': [
                         'signature_pad.js'
+                    ],
+                    'signature_pad.jquery.min.js': [
+                        'signature_pad.jquery.js'
                     ]
                 }
             }
